@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace WebInterface.Server.Controllers
 {
     [Route("api/[controller]")]
+    [Produces("application/json")]
     public class SampleDataController : Controller
     {
         private static string[] Summaries = new[]
