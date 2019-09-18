@@ -3,22 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29230.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebInterface.Server", "WebInterface\WebInterface.Server\WebInterface.Server.csproj", "{8E180DFD-33BE-4516-AC6B-155B97C60653}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebInterface.Server", "WebInterface\WebInterface.Server\WebInterface.Server.csproj", "{8E180DFD-33BE-4516-AC6B-155B97C60653}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebInterface.Client", "WebInterface\WebInterface.Client\WebInterface.Client.csproj", "{47A8151B-199B-4C54-9D97-3DAA640B1E26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebInterface.Client", "WebInterface\WebInterface.Client\WebInterface.Client.csproj", "{47A8151B-199B-4C54-9D97-3DAA640B1E26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebInterface.Shared", "WebInterface\WebInterface.Shared\WebInterface.Shared.csproj", "{9A1993E2-F141-4A2F-A2E0-1A30FFF4964D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebInterface.Shared", "WebInterface\WebInterface.Shared\WebInterface.Shared.csproj", "{9A1993E2-F141-4A2F-A2E0-1A30FFF4964D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D1CD69C2-0DE8-404B-ABF3-23F55AEB0A55}"
 	ProjectSection(SolutionItems) = preProject
 		Readme.md = Readme.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenhouseDeviceManager", "GreenhouseDeviceManager\GreenhouseDeviceManager.csproj", "{9007F9D4-5366-498E-A165-60750A51CC1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreenhouseDeviceManager", "GreenhouseDeviceManager\GreenhouseDeviceManager.csproj", "{9007F9D4-5366-498E-A165-60750A51CC1D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{A2714144-0996-4687-9EAD-367869CBCF26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenhouseDeviceManagerTests", "GreenhouseDeviceManagerTests\GreenhouseDeviceManagerTests.csproj", "{C7C7AFDB-7A28-4F1C-A57E-B875C8690E4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreenhouseDeviceManagerTests", "GreenhouseDeviceManagerTests\GreenhouseDeviceManagerTests.csproj", "{C7C7AFDB-7A28-4F1C-A57E-B875C8690E4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldInterfaces", "FieldInterfaces\FieldInterfaces.csproj", "{156330F6-1313-4B24-8626-4EACA15D49ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +48,10 @@ Global
 		{C7C7AFDB-7A28-4F1C-A57E-B875C8690E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7C7AFDB-7A28-4F1C-A57E-B875C8690E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7C7AFDB-7A28-4F1C-A57E-B875C8690E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{156330F6-1313-4B24-8626-4EACA15D49ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156330F6-1313-4B24-8626-4EACA15D49ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156330F6-1313-4B24-8626-4EACA15D49ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156330F6-1313-4B24-8626-4EACA15D49ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
